@@ -1,0 +1,53 @@
+title: "Karmanyaah Malhotra"
+description: "This is my personal website for experimentation and having a profile that I maintain on the WWW."
+# baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://beachwood-high-school.github.io" #for sitemap
+
+# Google-analytics
+google-analytics:
+  id: ""
+sass:
+  sass_dir: assets/_sass
+  style: compressed
+
+picture:
+  nomarkdown: false
+
+
+exclude: ["package.json", "src", "node_modules", "vendor/bundle"]
+
+
+##development options
+#host: 192.168.0.199 #make it your own ip address to be able to test from mobile devices in the LAN
+livereload: true
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-minifier
+
+#    github default
+#   jekyll-coffeescript
+#  jekyll-default-layout
+# jekyll-gist
+#    jekyll-github-metadata
+#   jekyll-optional-front-matter
+#  jekyll-paginate
+# jekyll-readme-index
+#    jekyll-titles-from-headings
+#   jekyll-relative-links
+
+
+# lsi: false
+# safe: true
+
+# compress_html:
+#   clippings: []
+#   comments: []
+#   endings: []
+#   ignore:
+#     envs: []
+#   blanklines: false
+#   profile: false
+#   startings: []
+#   #testing

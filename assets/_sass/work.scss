@@ -1,0 +1,12 @@
+#work {
+  iframe {
+    width: 70%;
+    max-height: 900px;
+    min-height: 50vh;
+  }
+  @media screen and (max-width: 736px) {
+      iframe{
+          width:100%;
+      }
+  }
+}

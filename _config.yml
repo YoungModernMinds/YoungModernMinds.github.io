@@ -11,6 +11,7 @@ sass:
   style: compressed
 
 picture:
+  source: assets/images/
   nomarkdown: false
 
 
@@ -24,7 +25,7 @@ livereload: true
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-minifier
+#  - jekyll-minifier
 
 #    github default
 #   jekyll-coffeescript

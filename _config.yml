@@ -6,13 +6,14 @@ locale: en_US
 
 # twitter:
 #   username: youngmodernminds
-# facebook:
-#   publisher: url
+facebook:
+  publisher: https://www.facebook.com/youngmodernminds
 
 social:
   links:
     - https://www.linkedin.com/company/young-modern-minds/
     - https://www.instagram.com/youngmodernminds/
+    - https://www.facebook.com/youngmodernminds
 
 
 # baseurl: "" # the subpath of your site, e.g. /blog
@@ -57,13 +58,13 @@ plugins:
 # lsi: false
 # safe: true
 
-# compress_html:
-#   clippings: []
-#   comments: []
-#   endings: []
-#   ignore:
-#     envs: []
-#   blanklines: false
-#   profile: false
-#   startings: []
-#   #testing
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
+  #testing

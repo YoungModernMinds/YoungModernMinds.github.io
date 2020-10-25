@@ -2,32 +2,47 @@
 layout: default
 ---
 
-{% include header.html %}
+{% include header.html %} {{content}}
 
-{{content}}
+<!-- Footer -->
+<footer id="footer">
+  <div class="inner">
+    <div class="flex">
+      <div class="copyright">&copy; Young Modern Minds Inc.</div>
+      <ul class="icons">
+        <!-- <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>-->
+        <!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li> -->
+        <li>
+          <a
+            href="https://www.instagram.com/youngmodernminds/"
+            class="icon fa-instagram"
+            ><span class="label">Instagram</span></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/company/young-modern-minds/"
+            class="icon fa-linkedin"
+            ><span class="label">LinkedIn</span></a
+          >
+        </li>
+        <!-- <li><a href="#" class="icon fa-pinterest-p"><span class="label">Pinterest</span></a></li> -->
+        <!-- <li><a href="#" class="icon fa-vimeo"><span class="label">Vimeo</span></a></li> -->
+      </ul>
+    </div>
+  </div>
+</footer>
 
-		<!-- Footer -->
-        <footer id="footer">
-            <div class="inner">
-                <div class="flex">
-                    <div class="copyright">
-                        &copy; Young Modern Minds Inc.
-                    </div>
-                    <ul class="icons">
-                        <!-- <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>-->
-                        <!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li> -->
-                        <li><a href="https://www.instagram.com/youngmodernminds/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                        <li><a href="https://www.linkedin.com/company/young-modern-minds/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                        <!-- <li><a href="#" class="icon fa-pinterest-p"><span class="label">Pinterest</span></a></li> -->
-                        <!-- <li><a href="#" class="icon fa-vimeo"><span class="label">Vimeo</span></a></li> -->
-                    </ul>
-                </div>
-            </div>
-        </footer>
-
-    <!-- Scripts -->
-        <script   src="/assets/js/jquery.min.js"></script>
-        <script   src="/assets/js/skel.min.js"></script>
-        <script   src="/assets/js/util.js"></script>
-        <script   src="/assets/js/main.js"></script>
-
+<!-- Scripts -->
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"
+  integrity="sha512-ju6u+4bPX50JQmgU97YOGAXmRMrD9as4LE05PdC3qycsGQmjGlfm041azyB1VfCXpkpt1i9gqXCT6XuxhBJtKg=="
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"
+  integrity="sha512-LpUt6fJuTMm3o0q5w8ydMXpGho2tqAoaRu6MP6Tt0X0Klct8xlToutBk7Wh51RL9n7/QSplQnrUA1U3S5YzMng=="
+  crossorigin="anonymous"
+></script>
+<script src="/assets/js/util.js"></script>
+<script src="/assets/js/main.js"></script>

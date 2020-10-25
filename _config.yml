@@ -1,8 +1,23 @@
-title: "Karmanyaah Malhotra"
-description: "This is my personal website for experimentation and having a profile that I maintain on the WWW."
-# baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://beachwood-high-school.github.io" #for sitemap
+title: "Young Modern Minds Inc."
+tagline: "Official Website of Young Modern Minds Inc."
+description: "Providing underrepresented and disadvantaged youth with opportunities in academia and the real world to inspire passions and success."
+logo: "/assets/images/logo/3.png"
+locale: en_US
 
+# twitter:
+#   username: youngmodernminds
+# facebook:
+#   publisher: url
+
+social:
+  links:
+    - https://www.linkedin.com/company/young-modern-minds/
+    - https://www.instagram.com/youngmodernminds/
+
+
+# baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.youngmodernminds.org" #for sitemap
+incremental: true
 # Google-analytics
 google-analytics:
   id: ""

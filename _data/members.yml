@@ -1,13 +1,17 @@
 members:
-  - name: Abigail Cherian
-    role: Co-Founder & Executive President
-    image_name: abby.HEIC
-    desc: Abby is a junior in high school, and she is passionate about anatomy/physiology and molecular biology and aspires to become a doctor. Outside of YMM, Abby enjoys learning Spanish and hopes to travel to Spain one day to experience the Spanish culture firsthand. Also, she loves volunteering at local hospitals, playing tennis with her friends, and learning calligraphy and photography.
-    imp: big
   - name: Rena Feng
     role: Co-Founder & Executive President
     image_name: renaprofile.jpeg
     desc: Rena is a high school student who is passionate about youth education and involvement in the community. In her free time, she loves to volunteer, listen to music, play guitar, and go on runs.
+    imp: big
+    # contact:
+    #   url: https://google.com
+    #   url_button_text: Contact
+    #   more: email.com
+  - name: Abigail Cherian
+    role: Co-Founder & Executive President
+    image_name: abby.HEIC
+    desc: Abby is a junior in high school, and she is passionate about anatomy/physiology and molecular biology and aspires to become a doctor. Outside of YMM, Abby enjoys learning Spanish and hopes to travel to Spain one day to experience the Spanish culture firsthand. Also, she loves volunteering at local hospitals, playing tennis with her friends, and learning calligraphy and photography.
     imp: big
   - name: Srinithi Srinivas
     role: Executive Vice President
@@ -24,7 +28,6 @@ members:
     image_name: brook.jpg
     desc: Brook is a junior at Saratoga High School. She loves to drink coffee!
     imp : medium
-  
   - name: Asma Mothana
     role: Co-Director of Operations
     image_name: asma.png

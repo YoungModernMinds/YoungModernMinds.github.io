@@ -19,17 +19,27 @@ title: About
       excel and simultaneously foster passions and success
     </p>
     <div class="center">
-      <a href="/join" class="button special big">JOIN OUR TEAM</a></div
-    >
+      <a href="/join" class="button special big">JOIN OUR TEAM</a>
+    </div>
     <div class="employees">
       {% for person in site.data.members.members %} {% capture image_url %}
       team_pictures/individual/{{person.image_name}} {% endcapture %}
+
       <div class="{{person.imp}}">
         <h2>{{person.name}}</h2>
         <h4>{{person.role}}</h4>
-        {% picture {{image_url}} 3:4 --alt "Portrait of {{person.name}}" %}
+        <div class="hover_container">
+          {% picture {{image_url}} 3:4 --alt Portrait of {{person.name}}%}
+          <div class="hover_middle">
+{% if person.contact %}
+            <a href="{{person.contact.url}}" class="button">{{person.contact.url_button_text}}</a>
+            <p>{{person.contact.more}}</p>
+{%endif%}
+          </div>
+        </div>
         <p>{{person.desc}}</p>
       </div>
+
       {%endfor%}
     </div>
   </div>

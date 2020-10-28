@@ -1,4 +1,9 @@
 members:
+  - name: Abigail Cherian
+    role: Co-Founder & Executive President
+    image_name: abby.jpg
+    desc: Abby is a junior in high school, and she is passionate about anatomy/physiology and molecular biology and aspires to become a doctor. Outside of YMM, Abby enjoys learning Spanish and hopes to travel to Spain one day to experience the Spanish culture firsthand. Also, she loves volunteering at local hospitals, playing tennis with her friends, and learning calligraphy and photography.
+    imp: big
   - name: Rena Feng
     role: Co-Founder & Executive President
     image_name: renaprofile.jpeg
@@ -8,11 +13,6 @@ members:
     #   url: https://google.com
     #   url_button_text: Contact
     #   more: email.com
-  - name: Abigail Cherian
-    role: Co-Founder & Executive President
-    image_name: abby.HEIC
-    desc: Abby is a junior in high school, and she is passionate about anatomy/physiology and molecular biology and aspires to become a doctor. Outside of YMM, Abby enjoys learning Spanish and hopes to travel to Spain one day to experience the Spanish culture firsthand. Also, she loves volunteering at local hospitals, playing tennis with her friends, and learning calligraphy and photography.
-    imp: big
   - name: Srinithi Srinivas
     role: Executive Vice President
     image_name: Srinithi.JPG

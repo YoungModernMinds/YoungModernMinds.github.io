@@ -23,7 +23,7 @@
       position: relative;
       width: 100%;
     }
-     img {
+    img {
       opacity: 1;
       display: block;
       max-width: 100%;
@@ -57,20 +57,25 @@
     }
 
     //////endhover
-    @media screen and (max-width: 736px) {
-      .big,
-      .medium {
-        text-align: center;
-        max-width: 90vw;
-        img {
-          max-width: 80vw;
-          margin: auto;
-        }
-      }
-    }
 
     img {
       max-width: 100%;
+    }
+  }
+  @media screen and (max-width: 736px) {
+    .employees {
+      margin: 2em 0em;
+      .big,
+      .medium {
+        text-align: center;
+        max-width: 95vw;
+        padding: initial;
+
+        img {
+          max-width: 60vw;
+          margin: auto;
+        }
+      }
     }
   }
 }

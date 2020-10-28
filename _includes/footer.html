@@ -1,0 +1,21 @@
+<!-- Footer -->
+<footer id="footer">
+  <div class="inner">
+    <div class="flex">
+      <div class="copyright">&copy; Young Modern Minds Inc.</div>
+      <ul class="icons">
+{% for i in site.data.social  %}
+        <li>
+            <a
+              href="{{i.liink}}"
+              class="icon"
+              title="{{i.label}}"
+              aria-label="{{i.label}}"
+              ><span class="{{i.fontawesome}}"></span>
+            </a>
+          </li>
+{%endfor%}
+      </ul>
+    </div>
+  </div>
+</footer>

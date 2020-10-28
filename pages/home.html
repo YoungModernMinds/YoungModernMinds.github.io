@@ -92,7 +92,9 @@ title: Home
     </header>
     <ul class="actions">
       <li>
-        <a href="https://discord.gg/VGUc4zF" class="button special big">JOIN</a>
+        {% for i in site.data.social %} {% if i.platform == "Discord" %}
+        <a href="{{i.link}}" class="button special big">JOIN</a>
+        {%break%} {%endif%} {%endfor%}
       </li>
     </ul>
   </div>
@@ -103,19 +105,19 @@ title: Home
   <div class="inner">
     <div class="flex flex-3">
       <article>
-          <h3>Our Work</h3>
+        <h3>Our Work</h3>
         <p>Find out more about what we do.<br /></p>
-          <a href="work.html" class="button special">Our Work</a>
+        <a href="work.html" class="button special">Our Work</a>
       </article>
       <article>
-          <h3>About</h3>
+        <h3>About</h3>
         <p>Meet the team behind Young Modern Minds Inc.</p>
-          <a href="about.html" class="button special">About</a>
+        <a href="about.html" class="button special">About</a>
       </article>
       <article>
-          <h3>Contact</h3>
+        <h3>Contact</h3>
         <p>Reach out to us for business inquiries and possible partnerships.</p>
-          <a href="contact.html" class="button special">Contact</a>
+        <a href="contact.html" class="button special">Contact</a>
       </article>
     </div>
   </div>

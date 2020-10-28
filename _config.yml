@@ -18,7 +18,7 @@ social:
 
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.youngmodernminds.org" #for sitemap
-incremental: true
+#incremental: true
 # Google-analytics
 google-analytics:
   id: ""

@@ -1,8 +1,15 @@
 ---
 #thing
 ---
+
+$purple1: #af9bcf;
+$purple2:  #836ba8;
+$palegreen: #d1e6b0;
+$customgrey:  #a8a7a7;
+
+
 @import 'nav';
 
-@import 'about';
+@import 'team';
 @import 'work';
 @import 'footer';

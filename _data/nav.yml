@@ -5,8 +5,8 @@
 - name: About
   url: "#!"
   sub:
-    - name: About Us
-      url: /about/
+    - name: Our Team
+      url: /team/
     - name: Join
       url: /join/
 - name: Contact  

@@ -1,16 +1,16 @@
 - platform: LinkedIn
-  link: https://www.linkedin.com/company/young-modern-minds/
+  link: "https://www.linkedin.com/company/young-modern-minds/"
   label: Our LinkedIn
   fontawesome: 'fab fa-linkedin'
 - platform: Discord
-  link: https://discord.gg/VGUc4zF
+  link: "https://discord.gg/VGUc4zF"
   label: Our Discord Server
   fontawesome: 'fab fa-discord'
 - platform: Instagram
-  link: https://www.instagram.com/youngmodernminds/
+  link: "https://www.instagram.com/youngmodernminds/"
   label: Our Instagram
   fontawesome: fab fa-instagram
 - platform: Facebook
   label: Our Facebook
-  link: 
+  link: "https://www.facebook.com/youngmodernminds/"
   fontawesome: fab fa-facebook

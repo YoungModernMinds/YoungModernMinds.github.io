@@ -1,14 +1,31 @@
-<header id="header">
-  <div class="inner">
-    <a href="/" class="logo">Young Modern Minds Inc.</a>
-    <nav id="nav">
-      <a href="/">Home</a>
-      <a href="/work">Our Work</a>
-      <a href="/about">About</a>
-      <a href="/contact">Contact</a>
+<section class="navigation">
+  <div class="nav-container">
+    <div class="brand">
+      {% picture favicon/ymmfav.png --link / --alt ymmlogo --a class="logo"
+      --img width="50" %}
+    </div>
+    <nav>
+      <div class="nav-mobile">
+        <a id="nav-toggle" href="#!"><span></span></a>
+      </div>
+      <ul class="nav-list">
+        {%for menu in site.data.nav%}
+
+        <li>
+          <a href="{{menu.url}}">{{menu.name}}</a>
+          {%if menu.sub%}
+          <ul class="nav-dropdown">
+            {% for ln in menu.sub%}
+            <li>
+              <a href="{{ln.url}}">{{ln.name}}</a>
+            </li>
+            {%endfor%}
+          </ul>
+          {%endif%}
+        </li>
+
+        {%endfor%}
+      </ul>
     </nav>
-    <a href="#navPanel" class="navPanelToggle"
-      ><span class="fas fa-bars"></span
-    ></a>
   </div>
-</header>
+</section>

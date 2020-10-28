@@ -29,6 +29,7 @@ sass:
 picture:
   source: assets/images/
   nomarkdown: false
+  fast_build: development
 
 
 exclude: ["package.json", "src", "node_modules", "vendor/bundle"]

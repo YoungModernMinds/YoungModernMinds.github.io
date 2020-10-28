@@ -33,7 +33,7 @@ title: Our Team
           {% picture {{image_url}} 3:4 --alt Portrait of {{person.name}}%}
           <div class="hover_middle">
             {% if person.contact %}
-            <a href="{{person.contact.url}}" class="button"
+            <a href="{{person.contact.url}}" target="_blank" rel="noopener noreferrer" class="button"
               >{{person.contact.url_button_text}}</a
             >
             <p>{{person.contact.more}}</p>

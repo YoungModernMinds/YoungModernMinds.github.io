@@ -47,3 +47,13 @@
       image_name: kyla.jpg
       desc: Kyla is a high school junior from Los Angeles, California. In her free time, she likes to watch TikToks, read, and cook.
       imp : medium
+- 
+    - name: Karmanyaah Malhotra
+      role: Director of Technology
+      image_name: karmanyaahm.png
+      desc: I built/maintain this website and like doing things involving electricity like electronics and computers.
+      imp: medium
+      contact:
+        url: https://karmanyaah.malhotra.cc
+        url_button_text: Website
+

@@ -140,6 +140,7 @@ nav {
   width: 100vw;
   height: $nav-height;
   background: $nav-background;
+  z-index: 999;
 }
 
 .nav-container {

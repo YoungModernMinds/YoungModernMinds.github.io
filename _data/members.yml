@@ -9,26 +9,36 @@
       image_name: renaprofile.jpeg
       desc: Rena is a high school student who is passionate about youth education and involvement in the community. In her free time, she loves to volunteer, listen to music, play guitar, and go on runs.
       imp: big
-      # contact:
-      #   url: https://google.com
-      #   url_button_text: Contact
-      #   more: email.com
+      contact:
+        url: https://www.linkedin.com/in/renapfeng/ 
+        url_button_text: LinkedIn
 -   
     - name: Srinithi Srinivas
       role: Executive Vice President
       image_name: Srinithi.JPG
       desc: Srinithi is a high school senior from the suburbs of North Carolina! She is the President of a writing tutoring business called Triangle Writers Studio, and enjoys teaching students in the area. At school, she has been involved in cross country and various business clubs. In her spare time, she loves to run, eat chocolate, and spend time with her friends.
       imp : medium
+      contact:
+        url: https://www.linkedin.com/in/srinithi-srinivas/ 
+        url_button_text: LinkedIn
+        
     - name: Srish Tallapaneni
       role: Secretary
       image_name: srishymm.jpg
       desc: Srish loves volunteering in his community, teaching STEM related concepts, competing in science olympiads/competitions, and motivating those around him in both academics and on the court. In his spare time, you can find him on the tennis court, indulged in an amazing book, or cheering on his favorite sports teams!
       imp : medium
+      contact:
+        url: https://www.linkedin.com/in/srish-tallapaneni/ 
+        url_button_text: LinkedIn
+      
     - name: Brook Chuang
       role: Treasurer
       image_name: brook.jpg
       desc: Brook is a junior at Saratoga High School. She loves to drink coffee!
       imp : medium
+      contact:
+        url: https://www.linkedin.com/in/chuangbrook/ 
+        url_button_text: LinkedIn
 - 
     - name: Asma Mothana
       role: Co-Director of Operations
@@ -51,7 +61,7 @@
     - name: Karmanyaah Malhotra
       role: Director of Technology
       image_name: karmanyaahm.png
-      desc: Karmanyaah built/maintains this website and likes working with things involving electricity like electronics and computers.
+      desc: Karmanyaah built and maintains this website. He enjoys working with things involving electricity such as electronics and computers.
       imp: medium
       contact:
         url: https://karmanyaah.malhotra.cc

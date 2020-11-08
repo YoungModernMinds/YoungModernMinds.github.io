@@ -69,3 +69,8 @@ compress_html:
   profile: false
   startings: []
   #testing
+
+collections:
+  work:
+    output: true
+    permalink: /:collection/:year/:title

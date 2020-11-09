@@ -7,46 +7,25 @@ title: Our Work
 <section id="work" class="wrapper">
   <div class="inner">
     <header class="align-center">
-      <h2>Teen Authors Webinar</h2>
-      <h3>
-        Saturday, October 17, 2020 | 4:00 - 5:00pm EDT (1:00 - 2:00 pm PDT)
-      </h3>
-      <p>Presented by Triangle Writers Studio and Young Modern Minds Inc.</p>
+      <h2>Our Work</h2>
     </header>
-    <p>
-      Join us for an hour long webinar featuring two published teen authors,
-      Sarah Frank and Ariana Tosado! <br />In this info-packed, hour long
-      webinar, they will discuss:
-    </p>
-        <ul>
-          <li>The process of becoming a teen author</li>
-          <li>Struggles they faced along the way</li>
-          <li>What their books are about</li>
-          <li>How they overcome writer's block</li>
-          <li>Advice for young writers and aspiring authors</li>
-        </ul>
-        <p>View the flyer below for more information.</p>
 
-    <ul class="actions">
-      <li>
-        <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSdrDnQ5ja3C11Jou5m0PMClei5_KOS6H-FIrW5kHqP7JWiSLQ/viewform"
-          class="button special"
-          >Sign Up</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://docs.google.com/document/d/1E6PB4b7FyOikKFdxZf9cMp_4MbrJIU2_gBo5KroIowc/edit"
-          class="button special"
-          >More Information</a
-        >
-      </li>
+    {%assign work = site.work |reverse| first%}
+    <a href="{{work.url}}"><b>Our most recent event</b></a>
+    <hr>
+    {{work.content}}
+
+<hr>
+{%if site.work.size > 1%}
+    <h2>Previous Work</h2>
+    <ul>
+          {%assign work = site.work |reverse%}
+
+      {% for work in work offset:1%}
+      <li><a href="{{work.url}}">{{work.name}}</a> ({{work.date | date: "%B %Y"}})</li>
+      {% endfor %}
     </ul>
-
-    <iframe
-      src="https://drive.google.com/file/d/16lLYWlnxmWKCs6jpoVcKwuDpRaiKEi8F/preview"
-
-    ></iframe>
+{%endif%}
+    
   </div>
 </section>

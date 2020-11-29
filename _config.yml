@@ -60,8 +60,8 @@ plugins:
 # safe: true
 
 compress_html:
-  clippings: []
-  comments: []
+  clippings: all
+  comments: ["<!-- ", " -->"]
   endings: []
   ignore:
     envs: []

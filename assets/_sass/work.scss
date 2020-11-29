@@ -5,8 +5,14 @@
     min-height: 50vh;
   }
   @media screen and (max-width: 736px) {
-      iframe{
-          width:100%;
-      }
+    iframe {
+      width: 100%;
+    }
   }
+}
+
+.youtube {
+  width: 100%;
+  max-width: 800px;
+  border: 0;
 }

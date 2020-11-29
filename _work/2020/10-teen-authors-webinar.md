@@ -45,9 +45,10 @@ layout: page
       </li>
     </ul>
 
-    <iframe
+    <iframe loading="lazy"
       src="https://drive.google.com/file/d/16lLYWlnxmWKCs6jpoVcKwuDpRaiKEi8F/preview"
 
     ></iframe>
+      <iframe loading="lazy" class="youtube" src="https://www.youtube.com/embed/UF8uR6Z6KLc"  allow="encrypted-media" allowfullscreen></iframe>
   </div>
 </section>

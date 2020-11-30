@@ -45,11 +45,8 @@ layout: page
       </li>
     </ul>
 
-    <iframe loading="lazy"
-      src="https://drive.google.com/file/d/16lLYWlnxmWKCs6jpoVcKwuDpRaiKEi8F/preview"
-
-    ></iframe>
-
-      <iframe loading="lazy" class="youtube" src="https://www.youtube.com/embed/JoTt8h9FLfU"  allow="encrypted-media" allowfullscreen></iframe>
+    <iframe loading="lazy"   src="https://drive.google.com/file/d/16lLYWlnxmWKCs6jpoVcKwuDpRaiKEi8F/preview"    ></iframe>
+<div style="padding: 30px;"></div>
+      <iframe loading="lazy"  class="youtube" src="https://www.youtube.com/embed/JoTt8h9FLfU"  allow="encrypted-media" allowfullscreen></iframe>
   </div>
 </section>

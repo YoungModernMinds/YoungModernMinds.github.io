@@ -1,5 +1,7 @@
 - name: Home
   url: /
+- name: Pen Pal
+  url: /work/2021/pen-pal-program
 - name: Our Work
   url: /work/
 - name: About

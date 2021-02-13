@@ -21,37 +21,6 @@
       contact:
         url: https://www.linkedin.com/in/srinithi-srinivas/ 
         url_button_text: LinkedIn
-        
-    - name: Srish Tallapaneni
-      role: Secretary
-      image_name: srishymm.jpg
-      desc: Srish loves volunteering in his community, teaching STEM related concepts, competing in science olympiads/competitions, and motivating those around him in both academics and on the court. In his spare time, you can find him on the tennis court, indulged in an amazing book, or cheering on his favorite sports teams!
-      imp : medium
-      contact:
-        url: https://www.linkedin.com/in/srish-tallapaneni/ 
-        url_button_text: LinkedIn
-      
-    - name: Brook Chuang
-      role: Treasurer
-      image_name: brook.jpg
-      desc: Brook is a junior at Saratoga High School. She loves to drink coffee!
-      imp : medium
-      contact:
-        url: https://www.linkedin.com/in/chuangbrook/ 
-        url_button_text: LinkedIn
--   
-    - name: Lauren Melendez
-      role: Director of Operations
-      image_name: laurenymm.jpg
-      desc: Lauren is a high school senior who is part of several nonprofit organizations dedicated to youth leadership and women empowerment. Currently, she is the Vice President at Women Empowerment in Healthcare. She strives to positively impact her community and inspire others to do the same.
-      imp : medium
-    
-    - name: Kyla Phiri
-      role: Director of Public Relations
-      image_name: kyla.jpg
-      desc: Kyla is a high school junior from Los Angeles, California. In her free time, she likes to watch TikToks, read, and cook.
-      imp : medium
-      
     - name: Karmanyaah Malhotra
       role: Director of Technology
       image_name: karmanyaahm.jpg

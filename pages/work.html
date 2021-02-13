@@ -11,17 +11,16 @@ title: Our Work
     </header>
 
     {%assign work = site.work |reverse| first%}
-    <a href="{{work.url}}"><b>Our most recent event</b></a>
     <hr>
     {{work.content}}
 
 <hr>
 {%if site.work.size > 1%}
-    <h2>Previous Work</h2>
+    <h2>Work</h2>
     <ul>
           {%assign work = site.work |reverse%}
 
-      {% for work in work offset:1%}
+      {% for work in work %}
       <li><a href="{{work.url}}">{{work.name}}</a> ({{work.date | date: "%B %Y"}})</li>
       {% endfor %}
     </ul>
